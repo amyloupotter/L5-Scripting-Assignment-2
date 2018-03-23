@@ -1,0 +1,976 @@
+﻿Log file open, 03/23/18 15:02:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject9
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-953619277) SRandInit(-953619277).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.211692
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequenceEditor
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.23-15.02.58:071][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.23-15.02.58:071][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.23-15.02.58:120][  0]LogInit: Computer: KATALYTIC-PC
+[2018.03.23-15.02.58:120][  0]LogInit: User: KATALYTIC
+[2018.03.23-15.02.58:120][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.23-15.02.58:120][  0]LogInit: High frequency timer resolution =3.904003 MHz
+[2018.03.23-15.02.58:120][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.23-15.02.58:120][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.23-15.02.58:120][  0]LogMemory: Process Physical Memory: 279.70 MB used, 279.70 MB peak
+[2018.03.23-15.02.58:120][  0]LogMemory: Process Virtual Memory: 277.62 MB used, 277.62 MB peak
+[2018.03.23-15.02.58:120][  0]LogMemory: Physical Memory: 6805.73 MB used,  9521.12 MB free, 16326.85 MB total
+[2018.03.23-15.02.58:120][  0]LogMemory: Virtual Memory: 657.18 MB used,  9521.12 MB free, 8388608.00 MB total
+[2018.03.23-15.02.58:220][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.23-15.02.58:220][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.23-15.02.58:221][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.23-15.02.58:745][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.23-15.02.58:774][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.03.23-15.02.58:774][  0]LogD3D11RHI:       1969/0/7907 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.23-15.02.58:774][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.23-15.02.58:778][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.23-15.02.58:778][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.23-15.02.58:778][  0]LogWindows: EnumDisplayDevices:
+[2018.03.23-15.02.58:778][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.03.23-15.02.58:779][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.03.23-15.02.58:779][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.23-15.02.58:779][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.23-15.02.58:780][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.03.23-15.02.58:780][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.03.23-15.02.58:780][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.03.23-15.02.58:780][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.03.23-15.02.58:780][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.03.23-15.02.58:780][  0]LogD3D11RHI:   Driver Version: 388.59 (internal:23.21.13.8859, unified:388.59)
+[2018.03.23-15.02.58:780][  0]LogD3D11RHI:      Driver Date: 12-5-2017
+[2018.03.23-15.02.58:780][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.23-15.02.58:786][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.23-15.02.58:800][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.23-15.02.58:804][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (D:/University/Year 2/Digital Scripting/LabyrinthGame/Intermediate/Shaders/WorkingDirectory/13464/).
+[2018.03.23-15.02.58:804][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/KATALYTIC/AppData/Local/Temp/UnrealShaderWorkingDir/AB947DEC44A8680B1C2876A1F0BEA4A9/'.
+[2018.03.23-15.02.58:804][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.23-15.02.59:591][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.23-15.02.59:623][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.23-15.02.59:656][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.23-15.02.59:688][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.23-15.02.59:720][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.23-15.02.59:751][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.23-15.02.59:783][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.23-15.02.59:847][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.23-15.02.59:873][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.23-15.02.59:903][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.23-15.02.59:951][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.23-15.02.59:982][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.23-15.03.00:013][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.23-15.03.00:044][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.23-15.03.00:078][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.23-15.03.00:142][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.23-15.03.00:142][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.23-15.03.00:166][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.23-15.03.00:237][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.23-15.03.00:257][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.23-15.03.00:290][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.23-15.03.00:322][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.23-15.03.00:355][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.23-15.03.00:387][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.23-15.03.00:387][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.23-15.03.00:663][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.23-15.03.00:762][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/KATALYTIC/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.23-15.03.00:762][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/KATALYTIC/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.23-15.03.00:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/University/Year 2/Digital Scripting/LabyrinthGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.23-15.03.00:762][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.23-15.03.00:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/University/Year 2/Digital Scripting/LabyrinthGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.23-15.03.00:762][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.23-15.03.00:778][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.23-15.03.00:789][  0]LogDerivedDataCache: Using Local data cache path C:/Users/KATALYTIC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.23-15.03.00:798][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.23-15.03.00:798][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.23-15.03.00:799][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.23-15.03.00:799][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.23-15.03.01:030][  0]LogAssetRegistry: FAssetRegistry took 0.0236 seconds to start up
+[2018.03.23-15.03.01:456][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.23-15.03.01:460][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.23-15.03.02:358][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.23-15.03.02:436][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.23-15.03.02:436][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.23-15.03.02:436][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.23-15.03.02:436][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.23-15.03.02:436][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.23-15.03.03:089][  0]LogNetVersion: MyProject9 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1926956936)
+[2018.03.23-15.03.03:408][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.161833 seconds
+[2018.03.23-15.03.03:412][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.23-15.03.03:412][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.03.23-15.03.03:412][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.23-15.03.03:445][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.23-15.03.05:146][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.23-15.03.05:172][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.23-15.03.05:628][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.23-15.03.05:914][  0]SourceControl: Source control is disabled
+[2018.03.23-15.03.05:914][  0]SourceControl: Source control is disabled
+[2018.03.23-15.03.05:941][  0]SourceControl: Source control is disabled
+[2018.03.23-15.03.05:967][  0]SourceControl: Source control is disabled
+[2018.03.23-15.03.06:306][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.23-15.03.06:454][  0]LogOcInput: OculusInput pre-init called
+[2018.03.23-15.03.06:618][  0]LogEngine: Initializing Engine...
+[2018.03.23-15.03.06:619][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.23-15.03.06:804][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.23-15.03.06:804][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.23-15.03.06:887][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.23-15.03.06:896][  0]LogInit: XAudio2 using 'Headset Earphone (3- ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-15.03.06:911][  0]LogInit: FAudioDevice initialized.
+[2018.03.23-15.03.07:346][  0]LogDerivedDataCache: Saved boot cache 0.43s 93MB C:/Users/KATALYTIC/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.23-15.03.07:351][  0]LogInit: Texture streaming: Enabled
+[2018.03.23-15.03.07:420][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.23-15.03.07:575][  0]LogInit: Transaction tracking system initialized
+[2018.03.23-15.03.07:764][  0]BlueprintLog: New page: Editor Load
+[2018.03.23-15.03.08:348][  0]LocalizationService: Localization service is disabled
+[2018.03.23-15.03.08:763][  0]LogConsoleResponse: Display: 
+[2018.03.23-15.03.08:933][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.23-15.03.08:933][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.23-15.03.08:933][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.23-15.03.09:910][  0]LogFileCache: Scanning file cache for directory 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/' took 0.01s
+[2018.03.23-15.03.10:297][  0]SourceControl: Source control is disabled
+[2018.03.23-15.03.10:297][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.23-15.03.10:298][  0]LightingResults: New page: Lighting Build
+[2018.03.23-15.03.10:326][  0]MapCheck: New page: Map Check
+[2018.03.23-15.03.10:326][  0]LightingResults: New page: Lighting Build
+[2018.03.23-15.03.10:495][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.23-15.03.10:499][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.23-15.03.10:510][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.23-15.03.10:542][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 31.702ms to complete.
+[2018.03.23-15.03.10:542][  0]LogFileHelpers: Loading map 'Template_Default' took 0.245
+[2018.03.23-15.03.16:468][  0]LogCollectionManager: Loaded 0 collections in 0.001101 seconds
+[2018.03.23-15.03.18:701][  0]LogFileCache: Scanning file cache for directory 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/Collections/' took 0.01s
+[2018.03.23-15.03.18:702][  0]LogFileCache: Scanning file cache for directory 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Developers/KATALYTIC/Collections/' took 0.01s
+[2018.03.23-15.03.18:702][  0]LogFileCache: Scanning file cache for directory 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Collections/' took 0.01s
+[2018.03.23-15.03.18:702][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.23-15.03.19:020][  0]LogContentBrowser: Native class hierarchy populated in 0.0264 seconds. Added 2389 classes and 502 folders.
+[2018.03.23-15.03.19:723][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0166 seconds. Added 0 classes and 0 folders.
+[2018.03.23-15.03.33:740][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.23-15.03.35:013][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.23-15.03.40:728][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.23-15.03.40:767][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.23-15.03.41:107][  0]LogSlate: Took 0.066081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.23-15.03.43:095][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2018.03.23-15.03.47:477][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.23-15.03.47:477][  0]LogLoad: (Engine Initialization) Total time: 51.02 seconds
+[2018.03.23-15.03.47:478][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.23-15.03.47:478][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.23-15.03.47:478][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.23-15.03.47:596][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.23-15.03.56:426][141]LogSlate: Took 0.035043 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.23-15.04.03:610][163]LogAssetRegistry: Asset discovery search completed in 62.6001 seconds
+[2018.03.23-15.04.03:611][163]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.23-15.04.03:612][163]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2018.03.23-15.04.13:233][329]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:267).
+[2018.03.23-15.04.17:918][837]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.23-15.04.18:642][837]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
+[2018.03.23-15.04.18:642][837]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 64X64)
+[2018.03.23-15.04.18:642][837]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 64X64)
+[2018.03.23-15.04.18:642][837]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 64X32)
+[2018.03.23-15.04.18:642][837]LogStaticMesh: Building static mesh ball...
+[2018.03.23-15.04.18:867][837]LogTexture: Display: Building textures: ball_bearing_col (AutoDXT, 1024X1024)
+[2018.03.23-15.04.18:867][837]LogTexture: Display: Building textures: ball_bearing_norm (BC5, 1024X1024)
+[2018.03.23-15.04.18:867][837]LogStaticMesh: Built static mesh [0.22s] /Game/Assets/Models/ball.ball
+[2018.03.23-15.04.18:991][837]LogStaticMesh: Building static mesh roundabaout...
+[2018.03.23-15.04.18:994][837]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Models/roundabaout.roundabaout
+[2018.03.23-15.04.19:099][837]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2018.03.23-15.04.19:451][837]LogAIModule: Creating AISystem for world PlatformTest
+[2018.03.23-15.04.19:474][837]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.23-15.04.19:566][837]Cmd: MAP LOAD FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.23-15.04.19:566][837]LightingResults: New page: Lighting Build
+[2018.03.23-15.04.19:567][837]LoadErrors: New page: Loading map: PlatformTest.umap
+[2018.03.23-15.04.19:567][837]MapCheck: New page: Map Check
+[2018.03.23-15.04.19:567][837]LightingResults: New page: Lighting Build
+[2018.03.23-15.04.19:965][837]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.23-15.04.19:991][837]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.23-15.04.20:021][837]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 29.339ms to complete.
+[2018.03.23-15.04.20:021][837]LogFileHelpers: Loading map 'PlatformTest' took 0.456
+[2018.03.23-15.05.10:681][935]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
+[2018.03.23-15.05.20:026][935]LogSlate: Took 0.047235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.23-15.05.23:199][936]LogSlate: Took 0.048182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.23-15.06.06:223][150]LogSlate: Took 0.072580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.23-15.06.33:770][489]LogRenderer: Reallocating scene render targets to support 1208x720 Format 10 NumSamples 1 (Frame:1).
+[2018.03.23-15.07.03:129][715]LogRenderer: Reallocating scene render targets to support 1432x932 Format 10 NumSamples 1 (Frame:1).
+[2018.03.23-15.07.35:674][757]LogEditorViewport: Clicking on Actor (LMB): Gate_C (Gate)
+[2018.03.23-15.07.57:361][293]BlueprintLog: New page: Compile Gate
+[2018.03.23-15.08.00:984][373]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.23-15.08.01:195][373]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.08.01:231][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-15.08.01:482][373]PIE: New page: PIE session: PlatformTest (23 Mar 2018 15:08:01)
+[2018.03.23-15.08.01:541][373]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlatformTest
+[2018.03.23-15.08.01:754][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.212818s)
+[2018.03.23-15.08.01:755][373]LogAIModule: Creating AISystem for world PlatformTest
+[2018.03.23-15.08.01:755][373]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2018.03.23-15.08.01:783][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlatformTest.PlatformTest to /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest (0.277340s)
+[2018.03.23-15.08.01:846][373]LogInit: XAudio2 using 'Headset Earphone (3- ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-15.08.01:876][373]LogInit: FAudioDevice initialized.
+[2018.03.23-15.08.02:001][373]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.23-15.08.02:034][373]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest up for play (max tick rate 0) at 2018.03.23-15.08.02
+[2018.03.23-15.08.02:618][373]LogWorld: Bringing up level for play took: 0.585134
+[2018.03.23-15.08.05:411][373]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.03.23-15.08.05:796][373]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlatformTest 3.739
+[2018.03.23-15.08.05:796][373]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.08.23:626][ 40]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.08.23:819][ 40]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.08.24:981][103]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.23-15.08.24:994][103]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.08.24:994][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-15.08.24:994][103]PIE: New page: PIE session: PlatformTest (23 Mar 2018 15:08:24)
+[2018.03.23-15.08.24:994][103]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlatformTest
+[2018.03.23-15.08.24:997][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002735s)
+[2018.03.23-15.08.24:998][103]LogAIModule: Creating AISystem for world PlatformTest
+[2018.03.23-15.08.24:998][103]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2018.03.23-15.08.24:998][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlatformTest.PlatformTest to /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest (0.003487s)
+[2018.03.23-15.08.25:015][103]LogInit: XAudio2 using 'Headset Earphone (3- ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-15.08.25:018][103]LogInit: FAudioDevice initialized.
+[2018.03.23-15.08.25:045][103]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.23-15.08.25:047][103]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest up for play (max tick rate 0) at 2018.03.23-15.08.25
+[2018.03.23-15.08.25:048][103]LogWorld: Bringing up level for play took: 0.001892
+[2018.03.23-15.08.25:049][103]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlatformTest 0.99
+[2018.03.23-15.08.25:049][103]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.08.30:619][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.08.30:660][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.08.34:397][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gate" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Gate.uasset" SILENT=true
+[2018.03.23-15.08.34:756][884]LogSavePackage: Save=194.57ms
+[2018.03.23-15.08.34:756][884]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/Gate1ACF98C646FE663CB0ABF48DD2155C70.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Gate.uasset'
+[2018.03.23-15.08.34:823][884]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Gate.uasset
+[2018.03.23-15.10.08:458][292]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.03.23-15.10.08:961][293]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.03.23-15.10.09:462][293]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.03.23-15.12.20:032][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.23-15.12.32:476][282]LogEditorViewport: Clicking on Actor (LMB): Turntable_C (Turntable)
+[2018.03.23-15.12.33:693][420]LogEditorViewport: Clicking on Actor (LMB): Gate_C (Gate)
+[2018.03.23-15.12.35:815][661]LogEditorViewport: Clicking on Actor (LMB): gateButton_C (gateButton)
+[2018.03.23-15.12.51:771][380]LogEditorViewport: Clicking on Actor (LMB): Gate_C (Gate)
+[2018.03.23-15.13.07:585][654]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2018.03.23-15.13.07:646][654]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.10:276][654]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.10:377][654]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.11:199][672]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.23-15.13.11:199][672]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.13.11:199][672]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.13.26:956][ 70]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.26:967][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.13.27:091][ 70]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.27:135][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.13.27:905][ 96]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.23-15.13.27:906][ 96]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.13.27:906][ 96]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.13.36:060][713]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.36:074][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.13.36:857][747]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.23-15.13.36:857][747]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.13.36:857][747]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.13.37:480][807]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.37:491][807]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.13.38:183][841]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.13.38:183][841]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.13.38:183][841]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.13.38:452][866]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.38:469][866]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.13.39:200][903]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.13.39:200][903]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.13.39:201][903]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.13.42:556][220]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.42:573][220]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.13.43:296][261]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.13.43:296][261]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.13.43:296][261]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.13.44:698][388]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.44:715][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.13.45:553][433]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.13.45:553][433]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.13.45:553][433]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.13.45:940][470]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.45:956][470]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.13.46:750][501]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.13.46:750][501]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.13.46:750][501]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.13.54:754][156]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.13.54:770][156]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.13.56:344][257]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.13.56:344][257]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.13.56:344][257]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.13.59:643][567]LogMaterialEditor: Saving and Compiling material GateColour
+[2018.03.23-15.14.05:706][567]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.14.05:769][567]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.14.05:789][567]LogMaterial: Missing cached shader map for material GateColour, compiling. 
+[2018.03.23-15.14.05:896][567]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GateColour, compiling. 
+[2018.03.23-15.14.06:901][567]TextureStreamingBuild: Display: Compiling optional shaders took 1.081 seconds.
+[2018.03.23-15.14.08:269][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/GateColour" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/GateColour.uasset" SILENT=true
+[2018.03.23-15.14.08:359][567]LogSavePackage: Save=88.62ms
+[2018.03.23-15.14.08:359][567]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/GateColour8AE984504F12ABD5E0834A90080514B2.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/GateColour.uasset'
+[2018.03.23-15.14.08:362][567]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/GateColour.uasset
+[2018.03.23-15.14.08:404][567]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.14.08:404][567]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.14.08:404][567]MaterialEditorStats: Texture samplers: 2/16
+[2018.03.23-15.14.09:011][620]LogEditorViewport: Clicking on Actor (LMB): gateButton_C (gateButton)
+[2018.03.23-15.14.21:888][761]LogEditorViewport: Clicking on Actor (LMB): Gate_C (Gate)
+[2018.03.23-15.14.42:224][180]LogEditorViewport: Clicking on Actor (LMB): gateButton_C (gateButton)
+[2018.03.23-15.14.54:564][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gate" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Gate.uasset" SILENT=true
+[2018.03.23-15.14.54:696][160]LogSavePackage: Save=25.21ms
+[2018.03.23-15.14.54:696][160]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/GateE4ACDEE0408970B15B2C7E82B53415DC.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Gate.uasset'
+[2018.03.23-15.14.54:699][160]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Gate.uasset
+[2018.03.23-15.15.07:342][260]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.10:649][453]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.10:733][453]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.10:745][453]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.10:782][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.15.11:641][489]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.11:641][489]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.11:641][489]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.15.16:119][872]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.16:135][872]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.15.16:953][910]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.16:953][910]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.16:953][910]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.15.18:973][ 88]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.18:986][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.15.19:679][115]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.19:679][115]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.19:679][115]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.15.21:201][256]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.21:215][256]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.15.21:928][290]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.21:928][290]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.21:928][290]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.15.24:592][522]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.24:606][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.15.25:302][555]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.25:302][555]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.25:302][555]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.15.25:570][580]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.25:585][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.15.26:329][617]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.26:329][617]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.26:329][617]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.15.28:795][840]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.28:812][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.15.29:507][867]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.29:507][867]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.29:507][867]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.15.33:278][199]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.33:294][199]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.15.34:075][236]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.34:075][236]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.34:075][236]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.15.34:323][258]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.34:341][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.15.35:070][292]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.35:070][292]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.35:070][292]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.15.36:625][413]LogMaterialEditor: Saving and Compiling material GateButtonColour
+[2018.03.23-15.15.42:994][413]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.43:254][413]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.43:278][413]LogMaterial: Missing cached shader map for material GateButtonColour, compiling. 
+[2018.03.23-15.15.43:321][413]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GateButtonColour, compiling. 
+[2018.03.23-15.15.43:592][413]TextureStreamingBuild: Display: Compiling optional shaders took 0.276 seconds.
+[2018.03.23-15.15.44:874][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/GateButtonColour" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/GateButtonColour.uasset" SILENT=true
+[2018.03.23-15.15.44:888][413]LogSavePackage: Save=11.63ms
+[2018.03.23-15.15.44:888][413]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/GateButtonColour607362CD407F5AFCA5AD85BC244895CC.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/GateButtonColour.uasset'
+[2018.03.23-15.15.44:890][413]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/GateButtonColour.uasset
+[2018.03.23-15.15.44:945][413]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.15.44:945][413]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.15.44:945][413]MaterialEditorStats: Texture samplers: 2/16
+[2018.03.23-15.16.05:012][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/gateButton" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/gateButton.uasset" SILENT=true
+[2018.03.23-15.16.05:035][822]LogSavePackage: Save=17.17ms
+[2018.03.23-15.16.05:035][822]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/gateButton8B7511F14DFBA9DAD766BC9C8F35E0A3.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/gateButton.uasset'
+[2018.03.23-15.16.05:039][822]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/gateButton.uasset
+[2018.03.23-15.16.19:083][189]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.20:159][312]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.20:254][312]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.20:266][312]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.20:301][312]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.16.22:080][399]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.16.22:080][399]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.16.22:080][399]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.16.26:362][765]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.26:377][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.16.27:101][793]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.16.27:101][793]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.16.27:101][793]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.16.28:843][954]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.28:861][954]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.16.29:556][985]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.16.29:556][985]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.16.29:556][985]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.16.31:983][203]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.31:997][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.16.32:742][238]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.16.32:742][238]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.16.32:742][238]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.16.34:769][420]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.34:782][420]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.16.35:479][457]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.16.35:479][457]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.16.35:479][457]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.16.36:340][526]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.36:356][526]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.16.37:212][560]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.16.37:212][560]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.16.37:212][560]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.16.40:431][792]LogMaterialEditor: Saving and Compiling material TurntableColour
+[2018.03.23-15.16.40:817][792]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.40:909][792]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.40:928][792]LogMaterial: Missing cached shader map for material TurntableColour, compiling. 
+[2018.03.23-15.16.40:974][792]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TurntableColour, compiling. 
+[2018.03.23-15.16.41:462][792]TextureStreamingBuild: Display: Compiling optional shaders took 0.496 seconds.
+[2018.03.23-15.16.42:727][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/TurntableColour" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/TurntableColour.uasset" SILENT=true
+[2018.03.23-15.16.42:740][792]LogSavePackage: Save=10.46ms
+[2018.03.23-15.16.42:740][792]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/TurntableColourE90CA216492D9AD650ACA29674FA49AC.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/TurntableColour.uasset'
+[2018.03.23-15.16.42:742][792]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/TurntableColour.uasset
+[2018.03.23-15.16.42:779][792]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.16.42:779][792]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.16.42:779][792]MaterialEditorStats: Texture samplers: 2/16
+[2018.03.23-15.17.16:664][243]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.25:267][804]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.25:357][804]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.25:387][804]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.25:421][804]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.17.26:273][841]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.17.26:273][841]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.17.26:273][841]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.17.31:329][274]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.31:345][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.17.32:218][316]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.17.32:218][316]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.17.32:218][316]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.17.34:380][504]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.34:394][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.17.35:154][531]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.17.35:154][531]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.17.35:154][531]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.17.37:848][734]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.37:863][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.17.38:595][762]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.17.38:595][762]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.17.38:595][762]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.17.38:695][771]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.38:707][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.23-15.17.39:588][791]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.17.39:588][791]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.17.39:588][791]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.23-15.17.40:295][848]LogMaterialEditor: Saving and Compiling material TurntableButtonColour
+[2018.03.23-15.17.40:689][848]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.41:330][848]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.41:501][848]LogMaterial: Missing cached shader map for material TurntableButtonColour, compiling. 
+[2018.03.23-15.17.41:538][848]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TurntableButtonColour, compiling. 
+[2018.03.23-15.17.41:754][848]TextureStreamingBuild: Display: Compiling optional shaders took 0.224 seconds.
+[2018.03.23-15.17.42:838][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/TurntableButtonColour" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/TurntableButtonColour.uasset" SILENT=true
+[2018.03.23-15.17.42:851][848]LogSavePackage: Save=10.78ms
+[2018.03.23-15.17.42:851][848]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/TurntableButtonColour5703F5534D6A3FEF8D82548A9C105B97.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/TurntableButtonColour.uasset'
+[2018.03.23-15.17.42:854][848]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Materials/TurntableButtonColour.uasset
+[2018.03.23-15.17.42:914][848]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.23-15.17.42:914][848]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.23-15.17.42:914][848]MaterialEditorStats: Texture samplers: 2/16
+[2018.03.23-15.17.59:484][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/turntableButton" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/turntableButton.uasset" SILENT=true
+[2018.03.23-15.17.59:509][906]LogSavePackage: Save=19.82ms
+[2018.03.23-15.17.59:509][906]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/turntableButton48C84949409E70E5693C85893E450879.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/turntableButton.uasset'
+[2018.03.23-15.17.59:513][906]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/turntableButton.uasset
+[2018.03.23-15.18.03:319][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Turntable" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Turntable.uasset" SILENT=true
+[2018.03.23-15.18.03:345][187]LogSavePackage: Save=20.63ms
+[2018.03.23-15.18.03:345][187]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/Turntable9EA214D54CD4F84B34E820BA97E7C426.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Turntable.uasset'
+[2018.03.23-15.18.03:348][187]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Turntable.uasset
+[2018.03.23-15.18.03:886][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.23-15.18.18:490][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlatformTest" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.23-15.18.18:640][433]LogSavePackage: Save=106.95ms
+[2018.03.23-15.18.18:640][433]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/PlatformTest67B330014013B0A95CA062B8B7F9D617.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest.umap'
+[2018.03.23-15.18.18:645][433]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest.umap
+[2018.03.23-15.18.18:736][433]LogFileHelpers: Saving map 'PlatformTest' took 0.467
+[2018.03.23-15.18.33:881][742]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject9
+[2018.03.23-15.18.33:881][742]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.23-15.18.33:881][742]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.03.23-15.18.33:881][742]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.23-15.18.33:881][742]LogTemp: BranchPath = KATALYTIC-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = KATALYTIC-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.03.23-15.18.35:059][875]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\KATALYTIC\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.23-15.19.30:404][ 67]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.03.23-15.24.11:948][882]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\University\Year 2\Digital Scripting\SEMESTER 2\test_map2.FBX)
+[2018.03.23-15.24.12:117][882]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.23-15.24.12:117][882]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.03.23-15.24.12:117][882]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.03.23-15.24.12:117][882]LogFbx: ItemName: Model, ItemCount : 1
+[2018.03.23-15.24.12:117][882]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.23-15.24.12:125][882]LogFbx: Loading FBX Scene from D:\University\Year 2\Digital Scripting\SEMESTER 2\test_map2.FBX
+[2018.03.23-15.24.12:149][882]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.23-15.24.14:198][882]LogFbx: Loading FBX Scene from D:\University\Year 2\Digital Scripting\SEMESTER 2\test_map2.FBX
+[2018.03.23-15.24.14:202][882]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.23-15.24.14:246][882]LogStaticMesh: Building static mesh test_map2...
+[2018.03.23-15.24.14:264][882]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Models/test_map2.test_map2
+[2018.03.23-15.24.14:270][882]LogStaticMesh: Warning: test_map2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.03.23-15.24.14:336][882]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.23-15.24.14:336][882]FBXImport: Warning: test_map2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.03.23-15.24.20:769][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/test_map2" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Models/test_map2.uasset" SILENT=true
+[2018.03.23-15.24.20:781][358]LogSavePackage: Save=9.67ms
+[2018.03.23-15.24.20:781][358]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/test_map29C7CB7FD4CDEB826380930B308B8317B.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Models/test_map2.uasset'
+[2018.03.23-15.24.20:783][358]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Models/test_map2.uasset
+[2018.03.23-15.24.34:268][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/test_map2" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Models/test_map2.uasset" SILENT=true
+[2018.03.23-15.24.34:344][395]LogSavePackage: Save=9.08ms
+[2018.03.23-15.24.34:344][395]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/test_map2F8C554CA43270FCF118B578BD5542311.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Models/test_map2.uasset'
+[2018.03.23-15.24.34:347][395]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Assets/Models/test_map2.uasset
+[2018.03.23-15.24.57:011][133]LogEditorTransaction: Undo Modify Component(s)
+[2018.03.23-15.25.18:471][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Platform" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Platform.uasset" SILENT=true
+[2018.03.23-15.25.18:568][915]LogSavePackage: Save=90.64ms
+[2018.03.23-15.25.18:568][915]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/Platform2F36FEC7458AF9AB2875C393A5C192CC.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Platform.uasset'
+[2018.03.23-15.25.18:571][915]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Blueprints/Platform.uasset
+[2018.03.23-15.25.18:961][947]BlueprintLog: New page: Compile Platform
+[2018.03.23-15.25.21:498][126]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.23-15.25.21:515][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.25.21:516][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-15.25.21:516][126]PIE: New page: PIE session: PlatformTest (23 Mar 2018 15:25:21)
+[2018.03.23-15.25.21:516][126]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlatformTest
+[2018.03.23-15.25.21:518][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002498s)
+[2018.03.23-15.25.21:519][126]LogAIModule: Creating AISystem for world PlatformTest
+[2018.03.23-15.25.21:519][126]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2018.03.23-15.25.21:519][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlatformTest.PlatformTest to /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest (0.003220s)
+[2018.03.23-15.25.21:536][126]LogInit: XAudio2 using 'Headset Earphone (3- ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-15.25.21:541][126]LogInit: FAudioDevice initialized.
+[2018.03.23-15.25.21:572][126]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.23-15.25.21:574][126]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest up for play (max tick rate 0) at 2018.03.23-15.25.21
+[2018.03.23-15.25.21:574][126]LogWorld: Bringing up level for play took: 0.001337
+[2018.03.23-15.25.21:575][126]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlatformTest -0.487
+[2018.03.23-15.25.21:576][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.25.45:907][787]LogBlueprintUserMessages: [Platform_128] You died
+[2018.03.23-15.25.45:930][788]LogBlueprintUserMessages: [Platform_128] You died
+[2018.03.23-15.25.47:416][950]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.25.47:454][950]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.25.53:998][560]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.23-15.25.54:009][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.25.54:009][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-15.25.54:010][560]PIE: New page: PIE session: PlatformTest (23 Mar 2018 15:25:54)
+[2018.03.23-15.25.54:010][560]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlatformTest
+[2018.03.23-15.25.54:012][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002389s)
+[2018.03.23-15.25.54:012][560]LogAIModule: Creating AISystem for world PlatformTest
+[2018.03.23-15.25.54:013][560]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2018.03.23-15.25.54:013][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlatformTest.PlatformTest to /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest (0.003092s)
+[2018.03.23-15.25.54:029][560]LogInit: XAudio2 using 'Headset Earphone (3- ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-15.25.54:033][560]LogInit: FAudioDevice initialized.
+[2018.03.23-15.25.54:065][560]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.23-15.25.54:067][560]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest up for play (max tick rate 0) at 2018.03.23-15.25.54
+[2018.03.23-15.25.54:067][560]LogWorld: Bringing up level for play took: 0.001207
+[2018.03.23-15.25.54:068][560]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlatformTest 0.006
+[2018.03.23-15.25.54:068][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.26.13:020][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.26.13:057][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.26.28:914][573]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.23-15.26.28:926][573]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.26.28:926][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.23-15.26.28:927][573]PIE: New page: PIE session: PlatformTest (23 Mar 2018 15:26:28)
+[2018.03.23-15.26.28:927][573]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PlatformTest
+[2018.03.23-15.26.28:929][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002695s)
+[2018.03.23-15.26.28:930][573]LogAIModule: Creating AISystem for world PlatformTest
+[2018.03.23-15.26.28:930][573]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2018.03.23-15.26.28:930][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PlatformTest.PlatformTest to /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest (0.003464s)
+[2018.03.23-15.26.28:947][573]LogInit: XAudio2 using 'Headset Earphone (3- ASTRO MixAmp Pro           )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.23-15.26.28:951][573]LogInit: FAudioDevice initialized.
+[2018.03.23-15.26.28:982][573]LogLoad: Game class is 'MyGameMode_C'
+[2018.03.23-15.26.28:984][573]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PlatformTest.PlatformTest up for play (max tick rate 0) at 2018.03.23-15.26.28
+[2018.03.23-15.26.28:985][573]LogWorld: Bringing up level for play took: 0.001614
+[2018.03.23-15.26.28:986][573]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PlatformTest 0.923
+[2018.03.23-15.26.28:986][573]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.26.31:639][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.26.31:680][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest' with GeneratedClass '/Game/Levels/PlatformTest.PlatformTest_C' with ClassGeneratedBy '/Game/Levels/PlatformTest.PlatformTest:PersistentLevel.PlatformTest'
+[2018.03.23-15.26.33:330][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlatformTest" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.23-15.26.33:568][ 66]LogSavePackage: Save=214.26ms
+[2018.03.23-15.26.33:568][ 66]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/PlatformTestF5ACA2B7405E32A20E2D4ABA361B4E81.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest.umap'
+[2018.03.23-15.26.33:571][ 66]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest.umap
+[2018.03.23-15.26.33:588][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlatformTest_BuiltData" FILE="D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest_BuiltData.uasset" SILENT=true
+[2018.03.23-15.26.33:610][ 66]LogSavePackage: Save=17.04ms
+[2018.03.23-15.26.33:610][ 66]LogSavePackage: Moving 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/PlatformTest_BuiltDataBC53A50B46DA56ED0B85B8B95E8184BC.tmp' to 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest_BuiltData.uasset'
+[2018.03.23-15.26.33:611][ 66]LogSavePackage: Display: Finished SavePackage D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Levels/PlatformTest_BuiltData.uasset
+[2018.03.23-15.27.34:886][793]LogGameProjectGeneration: Created new project with 4 files (plus project files)
+[2018.03.23-15.27.34:924][794]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.03.23-15.27.35:277][795]Cmd: QUIT_EDITOR
+[2018.03.23-15.27.36:704][795]LogExit: Preparing to exit.
+[2018.03.23-15.27.40:520][795]LogExit: Editor shut down
+[2018.03.23-15.27.40:523][795]LogExit: Transaction tracking system shut down
+[2018.03.23-15.27.40:908][795]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.23-15.27.40:908][795]LogDirectoryWatcher: A directory notification for 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/' was aborted.
+[2018.03.23-15.27.40:908][795]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.23-15.27.40:908][795]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.23-15.27.40:908][795]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.23-15.27.44:474][795]LogExit: Object subsystem successfully closed.
+[2018.03.23-15.27.44:900][795]LogD3D11RHI: Shutdown
+[2018.03.23-15.27.44:921][795]LogD3D11RHI: CleanupD3DDevice
+[2018.03.23-15.27.45:231][795]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.23-15.27.47:370][795]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (548)
+[2018.03.23-15.27.47:370][795]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (546)
+[2018.03.23-15.27.47:371][795]LogModuleManager: Shutting down and abandoning module MaterialEditor (544)
+[2018.03.23-15.27.47:371][795]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (542)
+[2018.03.23-15.27.47:371][795]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (540)
+[2018.03.23-15.27.47:371][795]LogModuleManager: Shutting down and abandoning module SequencerWidgets (538)
+[2018.03.23-15.27.47:371][795]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2018.03.23-15.27.47:371][795]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2018.03.23-15.27.47:440][795]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.03.23-15.27.47:440][795]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2018.03.23-15.27.47:440][795]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2018.03.23-15.27.47:458][795]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.03.23-15.27.47:493][795]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2018.03.23-15.27.47:493][795]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2018.03.23-15.27.47:493][795]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2018.03.23-15.27.47:514][795]LogDirectoryWatcher: A directory notification for 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Collections/' was aborted.
+[2018.03.23-15.27.47:514][795]LogDirectoryWatcher: A directory notification for 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Content/Developers/KATALYTIC/Collections/' was aborted.
+[2018.03.23-15.27.47:514][795]LogDirectoryWatcher: A directory notification for 'D:/University/Year 2/Digital Scripting/LabyrinthGame/Saved/Collections/' was aborted.
+[2018.03.23-15.27.47:514][795]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2018.03.23-15.27.47:567][795]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2018.03.23-15.27.47:567][795]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2018.03.23-15.27.47:578][795]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2018.03.23-15.27.47:578][795]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2018.03.23-15.27.47:578][795]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2018.03.23-15.27.47:578][795]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2018.03.23-15.27.47:578][795]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2018.03.23-15.27.47:578][795]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2018.03.23-15.27.47:590][795]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2018.03.23-15.27.47:590][795]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2018.03.23-15.27.47:590][795]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.03.23-15.27.47:618][795]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2018.03.23-15.27.47:634][795]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2018.03.23-15.27.47:659][795]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2018.03.23-15.27.47:701][795]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2018.03.23-15.27.47:702][795]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (488)
+[2018.03.23-15.27.47:710][795]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.03.23-15.27.47:710][795]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.03.23-15.27.47:710][795]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.03.23-15.27.47:710][795]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.03.23-15.27.47:710][795]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.03.23-15.27.47:711][795]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.03.23-15.27.47:711][795]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.03.23-15.27.47:711][795]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.03.23-15.27.47:711][795]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.03.23-15.27.47:711][795]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.03.23-15.27.47:725][795]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.03.23-15.27.47:725][795]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.03.23-15.27.47:725][795]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.03.23-15.27.47:725][795]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.03.23-15.27.47:725][795]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.03.23-15.27.47:789][795]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.03.23-15.27.47:827][795]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.03.23-15.27.47:858][795]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.03.23-15.27.47:858][795]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.03.23-15.27.47:858][795]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.03.23-15.27.47:858][795]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.03.23-15.27.47:858][795]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.03.23-15.27.48:660][795]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.03.23-15.27.48:660][795]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.03.23-15.27.48:660][795]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.03.23-15.27.48:660][795]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.03.23-15.27.48:669][795]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.03.23-15.27.48:700][795]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.03.23-15.27.48:700][795]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.03.23-15.27.48:719][795]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.03.23-15.27.48:719][795]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.03.23-15.27.48:766][795]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.03.23-15.27.48:800][795]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.03.23-15.27.48:801][795]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.03.23-15.27.48:833][795]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.03.23-15.27.48:833][795]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.03.23-15.27.48:869][795]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.03.23-15.27.48:869][795]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.03.23-15.27.48:869][795]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.03.23-15.27.48:869][795]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.03.23-15.27.48:869][795]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.03.23-15.27.48:914][795]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.03.23-15.27.48:922][795]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.03.23-15.27.48:939][795]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.03.23-15.27.48:956][795]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.03.23-15.27.48:992][795]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.03.23-15.27.49:042][795]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.03.23-15.27.49:111][795]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.03.23-15.27.49:210][795]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.03.23-15.27.49:434][795]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.03.23-15.27.49:434][795]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.03.23-15.27.49:434][795]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.03.23-15.27.49:445][795]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.03.23-15.27.49:471][795]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.03.23-15.27.49:471][795]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.03.23-15.27.49:480][795]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.03.23-15.27.49:486][795]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.03.23-15.27.49:487][795]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.03.23-15.27.49:488][795]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.03.23-15.27.49:500][795]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.03.23-15.27.49:530][795]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.03.23-15.27.49:544][795]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.03.23-15.27.49:558][795]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.03.23-15.27.49:559][795]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.03.23-15.27.49:559][795]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.03.23-15.27.49:559][795]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.03.23-15.27.49:559][795]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.03.23-15.27.49:602][795]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.03.23-15.27.49:602][795]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.03.23-15.27.49:602][795]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.03.23-15.27.49:602][795]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.03.23-15.27.49:602][795]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.03.23-15.27.49:602][795]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.03.23-15.27.49:602][795]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.03.23-15.27.49:602][795]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.03.23-15.27.49:602][795]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.03.23-15.27.49:617][795]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.03.23-15.27.49:724][795]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.03.23-15.27.49:819][795]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.03.23-15.27.49:819][795]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.03.23-15.27.49:819][795]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.03.23-15.27.49:819][795]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.03.23-15.27.49:819][795]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.03.23-15.27.49:819][795]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.03.23-15.27.49:819][795]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.03.23-15.27.49:844][795]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.03.23-15.27.49:844][795]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.03.23-15.27.49:844][795]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.03.23-15.27.49:990][795]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.03.23-15.27.49:990][795]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.03.23-15.27.50:005][795]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.03.23-15.27.50:005][795]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.03.23-15.27.50:005][795]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.03.23-15.27.50:005][795]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.03.23-15.27.50:005][795]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.03.23-15.27.50:139][795]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.03.23-15.27.50:186][795]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.03.23-15.27.50:186][795]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.03.23-15.27.50:186][795]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.03.23-15.27.50:186][795]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.03.23-15.27.50:216][795]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.03.23-15.27.50:472][795]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.03.23-15.27.50:519][795]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.03.23-15.27.50:533][795]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.03.23-15.27.50:533][795]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.03.23-15.27.50:533][795]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.03.23-15.27.50:533][795]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.03.23-15.27.50:560][795]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.03.23-15.27.50:593][795]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.03.23-15.27.50:606][795]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.03.23-15.27.50:660][795]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.03.23-15.27.50:661][795]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.03.23-15.27.50:684][795]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.03.23-15.27.50:684][795]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.03.23-15.27.50:684][795]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.03.23-15.27.50:684][795]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.03.23-15.27.50:684][795]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.03.23-15.27.50:684][795]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.03.23-15.27.50:684][795]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.03.23-15.27.50:710][795]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.03.23-15.27.50:810][795]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.03.23-15.27.50:933][795]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.03.23-15.27.50:933][795]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.03.23-15.27.50:933][795]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.03.23-15.27.50:933][795]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.03.23-15.27.50:999][795]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.03.23-15.27.50:999][795]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.03.23-15.27.51:000][795]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.03.23-15.27.51:000][795]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.03.23-15.27.51:057][795]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.03.23-15.27.51:057][795]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.03.23-15.27.51:138][795]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.03.23-15.27.51:138][795]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.03.23-15.27.51:138][795]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.03.23-15.27.51:219][795]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.03.23-15.27.51:219][795]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.03.23-15.27.51:219][795]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.03.23-15.27.51:219][795]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.03.23-15.27.51:251][795]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.03.23-15.27.51:282][795]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.03.23-15.27.51:282][795]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.03.23-15.27.51:441][795]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.03.23-15.27.51:441][795]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.03.23-15.27.51:485][795]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.03.23-15.27.51:485][795]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.03.23-15.27.51:508][795]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.03.23-15.27.51:508][795]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.03.23-15.27.51:508][795]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.03.23-15.27.51:508][795]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.03.23-15.27.51:683][795]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.03.23-15.27.51:683][795]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.03.23-15.27.51:685][795]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.03.23-15.27.51:685][795]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.03.23-15.27.51:685][795]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.03.23-15.27.51:685][795]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.03.23-15.27.51:685][795]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.03.23-15.27.51:685][795]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.03.23-15.27.51:685][795]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.23-15.27.51:685][795]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.23-15.27.51:696][795]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.23-15.27.51:735][795]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.23-15.27.51:735][795]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.23-15.27.51:745][795]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.23-15.27.51:745][795]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.23-15.27.51:771][795]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.23-15.27.51:782][795]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2018.03.23-15.27.51:782][795]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.03.23-15.27.51:783][795]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.23-15.27.51:848][795]LogDerivedDataCache: Shutdown
+[2018.03.23-15.27.51:848][795]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.23-15.27.51:848][795]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.23-15.27.51:910][795]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.23-15.27.51:938][795]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.23-15.27.51:957][795]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.23-15.27.51:983][795]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.23-15.27.52:012][795]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.23-15.27.52:012][795]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.23-15.27.52:012][795]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.23-15.27.52:012][795]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.23-15.27.52:043][795]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.23-15.27.52:044][795]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.23-15.27.52:044][795]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.23-15.27.52:044][795]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.23-15.27.52:044][795]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.23-15.27.52:044][795]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.23-15.27.52:044][795]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.03.23-15.27.52:044][795]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.03.23-15.27.52:044][795]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.03.23-15.27.52:067][795]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.23-15.27.52:067][795]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.23-15.27.52:067][795]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.23-15.27.52:067][795]LogOnline: Display: Unloading online subsystem: NULL
+[2018.03.23-15.27.52:092][795]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.23-15.27.52:156][795]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.23-15.27.52:156][795]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.23-15.27.52:168][795]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCEDB89A3-47ED-251B-B199-478B333906F2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=f0ff1c4046fab7ae648280b23d3dc67b%7C605c327114b04007b266258920196fd5%7C8a61c09e-5bb7-433a-9111-afc627312955&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.23-15.27.52:199][795]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.23-15.27.52:218][795]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.23-15.27.52:295][795]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.23-15.27.52:295][795]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.23-15.27.52:352][795]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.23-15.27.52:352][795]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.23-15.27.52:352][795]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.23-15.27.52:352][795]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.23-15.27.52:438][795]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.23-15.27.52:468][795]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.23-15.27.52:468][795]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.23-15.27.52:517][795]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.23-15.27.52:517][795]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.23-15.27.52:517][795]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.23-15.27.52:517][795]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.23-15.27.52:517][795]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.23-15.27.52:517][795]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.23-15.27.52:517][795]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.23-15.27.52:517][795]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.23-15.27.52:533][795]LogExit: Exiting.
+[2018.03.23-15.27.52:542][795]Log file closed, 03/23/18 15:27:52
